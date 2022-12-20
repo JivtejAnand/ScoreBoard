@@ -1,0 +1,161 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10%;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    border: 3px solid #FD0B0B;
+    border-radius: 20px;
+}
+
+.board {
+    position: relative;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+h3 {
+
+    position: relative;
+    left: 2px;
+    top: 21px;
+    width: 149px;
+    height: 36px;
+
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+    color: #EEEEEE;
+}
+
+#pointsHome {
+    
+    display: flex;
+    width: 155;
+    height: 120px;
+    position: relative;
+    justify-content: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+#pointsGuest {
+    
+    display: flex;
+    width: 155;
+    height: 120px;
+    position: relative;
+    justify-content: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+#pointBtnHome {
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    box-shadow: 0px 4px 10px rgba(4, 16, 69, 0.75);
+    border-radius: 5px;
+    justify-content: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 43px;
+    /* or 155% */
+
+    text-align: center;
+    cursor: pointer;
+    color: #9AABD8;
+}
+
+.cards {
+    top: 20px;
+    display: flex;
+    position: relative;
+
+}
+
+.cards2 {
+    top: 20px;
+    display: flex;
+    position: relative;
+}
+
+#pointBtnGuest {
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    box-shadow: 0px 4px 10px rgba(4, 16, 69, 0.75);
+    border-radius: 5px;
+    justify-content: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 43px;
+    /* or 155% */
+
+    text-align: center;
+    cursor: pointer;
+    color: #9AABD8;
+}
+
+#resetBtn {
+    box-sizing: border-box;
+    color: #D5E0FF;
+    position: relative;
+    width: 155px;
+    height: 28px;
+    left: -145px;
+    top: 40px;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    box-shadow: 0px 4px 10px rgba(4, 16, 69, 0.75);
+    border-radius: 5px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 6px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
